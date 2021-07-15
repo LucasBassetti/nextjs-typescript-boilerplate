@@ -7,8 +7,8 @@ export const Wrapper = styled.main`
   height: 100%;
   justify-content: center;
   padding: 3rem;
-  width: 100%;
   text-align: center;
+  width: 100%;
 `;
 
 export const Title = styled.h1`
