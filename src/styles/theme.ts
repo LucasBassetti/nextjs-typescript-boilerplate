@@ -1,6 +1,6 @@
 export default {
   grid: {
-    container: '130rem',
+    container: '120rem',
     gutter: '3.2rem',
   },
   border: {
@@ -9,6 +9,8 @@ export default {
   font: {
     family:
       "Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    familyTitle:
+      "Suburbia, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     light: 300,
     normal: 400,
     bold: 600,
@@ -21,13 +23,22 @@ export default {
       xxlg: '2.8rem',
       hg: '5.2rem',
     },
+    titleSizes: {
+      xs: '3.2rem',
+      sm: '3.4rem',
+      md: '3.6rem',
+      lg: '3.8rem',
+      xlg: '4rem',
+      xxlg: '8rem',
+      hg: '16rem',
+    },
   },
   colors: {
     primary: '#F231A5',
     secondary: '#3CD3C1',
-    textPrimary: '#000000',
+    textPrimary: '#f0f0f7',
     textSecondary: '#AAAAAA',
-    background: '#FFFFFF',
+    background: '#212121',
     border: '#F5F5F5',
   },
   spacings: {
