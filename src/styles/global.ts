@@ -29,13 +29,6 @@ const GlobalStyles: GlobalStyleComponent<GlobalStylesProps, DefaultTheme> = crea
     src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
         url('/fonts/poppins-v12-latin-600.woff2') format('woff2');
   }
-  @font-face {
-    font-display: swap;
-    font-family: 'Suburbia';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/fonts/suburbia.ttf');
-  }
 
   * {
     box-sizing: border-box;
@@ -55,18 +48,8 @@ const GlobalStyles: GlobalStyleComponent<GlobalStylesProps, DefaultTheme> = crea
     }
 
     body {
-      background: ${theme.colors.background};
-      color: ${theme.colors.textPrimary};
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.md};
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-      font-family: ${theme.font.familyTitle};
     }
   `}
 `;
